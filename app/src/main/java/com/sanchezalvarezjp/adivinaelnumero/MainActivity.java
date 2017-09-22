@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 editText.getText().clear();
+                ns = new NumeroSecreto();
                 button.setEnabled(true);
                 btnAgain.setVisibility(View.INVISIBLE);
             }
